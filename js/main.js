@@ -1,5 +1,3 @@
-require('grainy')
-
 document.querySelector('body').grainy({
   intensity: 1,
   size: 625,
