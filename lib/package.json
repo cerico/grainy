@@ -1,6 +1,6 @@
 {
   "name": "grainy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "add grain to background without jquery",
   "main": "index.js",
   "scripts": {
