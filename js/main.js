@@ -43,3 +43,21 @@ document.querySelector('.box4').grainy({
   opacity: 0.14,
   monochrome: true
 })
+
+document.querySelector('.box5').grainy({
+  intensity: 1,
+  size: 625,
+  color: '#ffffff',
+  backgroundColor: '#2f5d8b',
+  opacity: 0.24,
+  monochrome: true
+})
+
+document.querySelector('.box6').grainy({
+  intensity: 2,
+  size: 1125,
+  color: '#2f5d8b',
+  backgroundColor: '#e89cdb',
+  opacity: 0.34,
+  monochrome: true
+})
