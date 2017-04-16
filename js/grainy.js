@@ -2,7 +2,7 @@
 	'use strict';
 	
 	Element.prototype.grainy = function(opts) {
-		options = Object.assign({}, Element.prototype.grainy.defaults, opts);
+		let options = Object.assign({}, Element.prototype.grainy.defaults, opts);
 		
 		// set randomColors to false if you set color option
 		if ( typeof options.color !== 'undefined' ) {
