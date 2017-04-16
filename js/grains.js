@@ -1,7 +1,8 @@
-
+(function () {
+	'use strict';
 	
-	Element.prototype.grains = function(opts) {
-		options = Object.assign({}, Element.prototype.grains.defaults, opts);
+	Element.prototype.grainy = function(opts) {
+		options = Object.assign({}, Element.prototype.grainy.defaults, opts);
 		
 		// set randomColors to false if you set color option
 		if ( typeof options.color !== 'undefined' ) {
@@ -126,4 +127,4 @@
 		// Disables the use of localStorage if enabled (good when trying different settings)
 		disableCache:      false
 	};
-
+}());

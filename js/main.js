@@ -1,4 +1,6 @@
-document.querySelector('body').grains({
+require('grainy')
+
+document.querySelector('body').grainy({
   intensity: 1,
   size: 625,
   color: '#000000',
@@ -8,16 +10,16 @@ document.querySelector('body').grains({
 })
 
 
-document.querySelector('.box1').grains({
+document.querySelector('.box1').grainy({
   intensity: 1,
   size: 625,
   color: '#ff0000',
   backgroundColor: '#d3aa85',
-  opacity: 0.44,
+  opacity: 0.48,
   monochrome: true
 })
 
-document.querySelector('.box2').grains({
+document.querySelector('.box2').grainy({
   intensity: 1,
   size: 525,
   color: '#000000',
@@ -26,7 +28,7 @@ document.querySelector('.box2').grains({
   monochrome: true
 })
 
-document.querySelector('.box3').grains({
+document.querySelector('.box3').grainy({
   intensity: 1,
   size: 625,
   color: '#ffffff',
@@ -35,7 +37,7 @@ document.querySelector('.box3').grains({
   monochrome: true
 })
 
-document.querySelector('.box4').grains({
+document.querySelector('.box4').grainy({
   intensity: 1,
   size: 625,
   color: '#000000',
