@@ -7,6 +7,7 @@ a) Clone this repo and copy the js/grainy.js script into your project. For usage
 b) install via npm and require
 
 #npm install --save grainy
+
 #require('grainy')
 
 
