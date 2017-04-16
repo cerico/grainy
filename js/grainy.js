@@ -1,9 +1,9 @@
 (function () {
-	'use strict';
+	// 'use strict';
 	
 	Element.prototype.grainy = function(opts) {
 		let options = Object.assign({}, Element.prototype.grainy.defaults, opts);
-		
+console.log(options)
 		// set randomColors to false if you set color option
 		if ( typeof options.color !== 'undefined' ) {
 			options.randomColors = false;
@@ -94,8 +94,9 @@
 		}
 	
 		var imgUri = "url('" + uri+ "')"
-	    
-		return this.style =  "background-image: " + imgUri + ";background-color: " + opts.backgroundColor
+		this.style.backgroundImage =  imgUri
+		this.style.backgroundColor =  opts.backgroundColor
+		return this.style
 
 	};
 	Element.prototype.defaults = {

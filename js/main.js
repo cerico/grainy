@@ -2,7 +2,7 @@ document.querySelector('body').grainy({
   intensity: 1,
   size: 625,
   color: '#000000',
-  backgroundColor: '#fff',
+  backgroundColor: '#ffffff',
   opacity: 0.12,
   monochrome: true
 })
