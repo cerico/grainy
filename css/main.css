@@ -77,7 +77,8 @@ body {
 .box4 {
   /*flex-basis:420px;*/
    flex:1 0 35%;
-  order:4
+  order:4;
+  height:320px
 }
 
 .box5, .box6 {
