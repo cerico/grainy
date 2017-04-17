@@ -1,19 +1,57 @@
-Add grain to your backgrounds, pure JS no jquery required. Is a modification of Daniel Rapp's Noisy jquery plugin, with jquery dependency removed
+Grainy
+===========
 
-Instructions: 
+A simple javascript utility for adding grain to backgrounds or other elements.
 
-a) Clone this repo and copy the js/grainy.js script into your project. For usage check the demo site
+Install with npm.
 
-b) install via npm and require
-
-#npm install --save grainy
-
-#require('grainy')
-
-
-
+```
 Demo: http://grainy.malham.io
+```
 
-Daniel Rapp's jQuery plugin: https://github.com/DanielRapp/Noisy
+```sh
+npm install grainy
+```
+
+Use with node.js, webpack and e.g react.js
+
+```js
+const grainy = require('grainy');
+
+componentDidMount(){
+
+  const node = ReactDOM.findDOMNode(this);
+  node.grainy({
+    intensity: 1,
+    size: 525,
+    color: '#000000',
+    backgroundColor: '#85b6d3',
+    opacity: 0.12,
+    monochrome: true,
+  });
+}
+```
+
+Alternatively, you can include `index.js` in your page and reference the global method.
+
+```js
+document.querySelector('.box5').grainy({
+  intensity: 1,
+  size: 625,
+  color: '#ffffff',
+  backgroundColor: '#2f5d8b',
+  opacity: 0.24,
+  monochrome: true
+})
+```
 
 
+Originally based on, and modified from, Daniel Rapp's jQuery plugin 'Noisy'
+
+https://github.com/DanielRapp/Noisy
+
+
+
+## License
+
+[ISC](LICENSE). Copyright (c) 2017 Gareth Robert Lee.
