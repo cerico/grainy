@@ -39,7 +39,7 @@ document.querySelector('.box4').grainy({
   intensity: 1,
   size: 625,
   color: '#000000',
-  backgroundColor: '#aa76f3',
+  backgroundColor: '#d792af',
   opacity: 0.14,
   monochrome: true
 })

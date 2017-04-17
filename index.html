@@ -38,13 +38,19 @@
         <span style="padding-left: 1.2em">monochrome: true,</span>
       })
       </div>
-      <div class="box box4 flex-column-center">document.querySelector('.box4').grainy({
-        <span style="padding-left: 1.2em">intensity: 1,</span>
-        <span style="padding-left: 1.2em">size: 625,</span>
-        <span style="padding-left: 1.2em">color: '#000000',</span>
-        <span style="padding-left: 1.2em">backgroundColor: '#aa76f3',</span>
-        <span style="padding-left: 1.2em">opacity: 0.14,</span>
-        <span style="padding-left: 1.2em">monochrome: true,</span>
+      <div class="box box4 flex-column-center">
+        <span>const grainy = require('grainy');</span>
+        <span style="padding-left: 1.2em">componentDidMount(){</span>
+        <span style="padding-left: 2.4em">const node = ReactDOM.findDOMNode(this);</span>
+        <span style="padding-left: 2.4em">node.grainy({</span>
+        <span style="padding-left: 3.6em">intensity: 1,</span>
+        <span style="padding-left: 3.6em">size: 625,</span>
+        <span style="padding-left: 3.6em">color: '#000000',</span>
+        <span style="padding-left: 3.6em">backgroundColor: '#d792af',</span>
+        <span style="padding-left: 3.6em">opacity: 0.14,</span>
+        <span style="padding-left: 3.6em">monochrome: true,</span>
+        <span style="padding-left: 2.4em">})</span>
+        <span style="padding-left: 1.2em">})</span>
       })
       </div>
          <div class="box box5 flex-column-center">
