@@ -8,7 +8,7 @@ A simple javascript utility for adding grain to backgrounds or other elements.
 Install with npm.
 
 ```
-Demo: http://grainy.malham.io
+Demo: http://grainy.yesmat.es
 ```
 
 ```sh
