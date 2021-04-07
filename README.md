@@ -7,11 +7,9 @@ Grainy
 
 A simple javascript utility for adding grain to backgrounds or other elements.
 
-Install with npm.
+Demo: https://grainy.yesmat.es
 
-```
-Demo: http://grainy.yesmat.es
-```
+Install with npm.
 
 ```sh
 npm install grainy
