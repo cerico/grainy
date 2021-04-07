@@ -2,6 +2,8 @@ Grainy
 ===========
 [![updown](https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Fgrainy.yesmat.es)](https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Fgrainy.yesmat.es)
 
+![screenshot](https://screenshots.io37.ch/grainy.jpg)
+
 
 A simple javascript utility for adding grain to backgrounds or other elements.
 
